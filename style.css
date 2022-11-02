@@ -1,0 +1,106 @@
+h1{
+  color : rgba(242, 242, 242, 1.0);
+  font-size: 60px;
+  font-family: arial black;
+  letter-spacing: 8px;
+
+}
+h2{
+  color : rgba(242, 242, 242, 1.0);
+  font-size: 25px;
+  font-family: arial black;
+
+}
+h3{
+  color :  rgba(242, 242, 242, 1.0);
+  font-size: 25px;
+  font-family: arial black;
+  text-align: justify;
+
+}
+p{
+  color : rgba(217,167,205,255);
+  font-size: 25px;
+  font-family: arial;
+
+}
+body {
+  background-image: url(rothko.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.3s ease;
+
+}
+img {
+  box-shadow: 0px 0px 3px 2px white;
+  transition: all .2s ease;
+}
+img:hover {
+  transform: scale(50);
+}
+button:hover {
+  background-color: rgba(217,167,205,255);
+
+}
+
+ul {
+  color: #4CAF50;
+  font-size: 30px;
+  text-align: justify;
+}
+
+i {
+  text-decoration: none;
+  color: #4CAF50;
+  text-align: justify;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.card {
+  background-color: rgba(255,255,255,.2);
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 30px;
+  padding: 25px;
+  box-shadow: 0px 0px 3px 1px rgba(193,81,110,1)
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
